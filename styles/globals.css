@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+
+.navBar .navBarLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  padding: 0 1rem;
+}
+
+.navBar .navBarLinks a {
+  color: rgb(var(--foreground-rgb));
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+.navBar .navBarLinks a:hover {
+  color: rgb(var(--background-start-rgb));
+  background: rgb(var(--foreground-rgb));
+  border-radius: 0.5rem;
+}

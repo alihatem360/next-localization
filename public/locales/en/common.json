@@ -1,0 +1,20 @@
+{
+  "navbar": {
+    "title1": "Main",
+    "title2": "About",
+    "title3": "Settings",
+    "title4": "Contacts"
+  },
+  "main": {
+    "hero": {
+      "title": "Hello"
+    }
+  },
+  "about": {
+    "title": "About",
+    "content": {
+      "header": "This website or application is a great place to get information and explore interesting content. We provide a diverse range of topics, articles, and news that may interest you.",
+      "body": "We are a passionate and qualified team working hard to deliver the best content for you. We constantly strive to improve your experience and meet your needs."
+    }
+  }
+}

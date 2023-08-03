@@ -1,0 +1,15 @@
+{
+  "navbar": {
+    "title1": "Bosh sahifa",
+    "title2": "Biz haqimizda",
+    "title3": "Sozlamalar",
+    "title4": "Kontaktlar"
+  },
+  "about": {
+    "title": "Haqida",
+    "content": {
+      "header": "Ushbu veb-sayt yoki dastur ma'lumotlarni olish va qiziqarli tarkibni tanlash uchun ajoyib joydir. Biz sizga qiziqarli mavzular, maqolalar va yangiliklar mavjudligini taqdim etamiz, sizning qiziqishingiz mumkin.",
+      "body": "Biz tinchlik bilan ishlaydigan va eng yaxshi tarkibni taklif etish uchun kuchli jamoamiz. Biz doimiy ravishda sizning tajribangizni yaxshilash va talabalaringizni bajarishga intilamiz."
+    }
+  }
+}
